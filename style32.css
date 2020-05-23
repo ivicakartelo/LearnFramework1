@@ -1,0 +1,49 @@
+.top {
+    padding: 5%;
+    text-align: center;
+    background-color: #ddd9d9;
+}
+.middle {
+    background-color: #ffffff !important;
+    padding: 10%;
+    border-right: solid #ddd9d9 1px;
+    border-left: solid #ddd9d9 1px;
+}
+.bottom {
+    padding: 5%;
+    text-align: center;
+    background-color: #ddd9d9;
+}
+.round-corners {
+    border-radius: 5px;  
+  }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+   input[type=submit] {
+    width: 100%;
+    background-color: #4d4c4c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #0869aa;
+  }
+  input[type=submit]:not(search) {
+    width: 20%;
+    background-color: #a7a3a3;
+  }
+  input[type=text]:not(search_text) {
+    width: 79%;
+  }

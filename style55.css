@@ -1,0 +1,163 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+  font-size: 1.5em; /* 16px/16px = 1em */
+  color: #000000;
+  background-color: #ddd9d9; 
+  
+}
+.container{
+  width: 90%;
+  max-width: 1200px;
+  padding: 0% 0; /* 0px/1200px = 0 */
+  margin: 0 auto;
+  /* display: table; */
+}
+
+.container img {
+  width: 100%;
+}
+
+/*
+.iframe-wrapper {
+position: relative;
+overflow: hidden;
+padding-top: 56.25%;
+}
+
+iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 0;
+}
+*/
+
+.pad {
+    padding: 5%;
+    background-color: #ffffff;
+    /* height: 100%; */
+}
+.pad-right {
+  padding: 0 0 0 5%;
+  background-color: #ddd9d9;
+  height: 100%;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h3 {
+    margin-top: 5%;
+    font-weight: 400;
+}
+h6 {
+  margin: -15px 0 20px 0;
+  font-weight: 250;
+}
+h4 {
+  margin: -15px 0 20px 0;
+  font-weight: 250;
+}
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a:link {text-decoration: none;color: #000000;}
+a:visited {text-decoration: none; color: #000000;}
+a:hover {text-decoration: none; color:  #E82182;}
+a:active {text-decoration: none; color: #E82182;}
+
+ul {
+  list-style-type: none;
+  background: #ddd9d9;
+  padding: 0 0;
+  margin: 0;
+}
+ul li {
+  background: #ffffff;
+  margin: 0 0 10% 0;
+  padding: 10%;
+}
+
+a.link-button:link, a.link-button:visited {
+  background-color: #4d4c4c;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 0 5% 0;
+}
+
+a.link-button:hover, a.link-button:active {
+  background-color: rgb(49, 49, 49);
+}
+
+a.ClickedLink4:link {
+    color: #8f2613;
+}
+div.sub-pad-click {
+  background-color: #ddd9d9;
+  padding: 5%;
+  box-shadow: 10px 10px 5px grey;
+}
+.pad-heading {
+  background-color: aqua;
+  padding: 5%;
+}
+
+.grid1{ width:8.33333333333333%;float:left; }     /* 100px/1200px=0,0833333333333333=8,33333333333333% */
+.grid2{ width: 16.66666666666667%;float:left; }         /* 200px/1200px=0,1666666666666667=16,66666666666667% */
+.grid3{ width: 25%;float:left; }        /* 300px/1200px=0,25=25% */
+.grid4{ width:33.33333333333333%;float:left; }         /* 400px/1200px=0,3333333333333333=33,33333333333333% */
+
+
+.grid5{ width:41.66666666666667%;float:left; }    /* 500px/1200px=0,4166666666666667=41,66666666666667% */
+.grid6{ width:50%; float:left; }          /* 600px/1200px=0,5=50% */
+.grid7{ width:58.33333333333333%; float:left; }     /* 700px/1200px=0,5833333333333333=58,33333333333333% */
+.grid8{ width:66.66666666666667%; float:left; }           /* 800px/1200px=0,6666666666666667=66,66666666666667% */
+.grid9{ width:75%; float:left; }        /* 900px/1200px=0,75=75% */
+.grid10{ width:83.33333333333333%; float:left; }          /* 1000px/1200px=0,8333333333333333=83,33333333333333% */
+.grid11{ width:91.66666666666667%; float:left; }        /* 1100px/1200px=0,9166666666666667=91,66666666666667% */
+.grid12{ width: 100%; float:left; }       /* 1200px/1200px=1=100% */
+
+@media screen and (max-width : 705px) {
+.grid1,
+.grid2, 
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9,
+.grid10,
+.grid11,
+.grid12 {
+  width: 100%;
+}
+.pad-right {
+  padding: 5% 0 0 0;
+}
+}
+a.ClickedLink {
+  color:red;
+}

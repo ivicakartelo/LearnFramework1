@@ -1,0 +1,96 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    font-size: 1em; /* 16px/16px = 1em */
+    color: #000000;
+    background-color: #ddd9d9;   
+  }
+  .container{
+    width: 90%;
+    max-width: 1200px;
+    padding: 0%; /* 0px/1200px = 0 */
+    margin: 0 auto;
+    display: table;
+  }
+  table {
+      width: 100%;
+  }
+  thead {
+      background-color: #007bff;
+      color: #ffffff;
+      height: 20px;
+  }
+  tbody {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #0869aa;
+  }
+  input[type=file] {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type=file]:hover {
+    background-color: #0869aa;
+  }
+  textarea {
+      width: 100%;
+      height: 50px;
+  }
+  h1 {
+    color: #918d8d;
+}
+td {
+    padding: 5px;
+}
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
