@@ -22,6 +22,7 @@ At index.php is CRUD code for table menu. In comments.php is CRUD code for table
 # Features in the root folder
 
 ###### Connection to database,
+###### Login
 ###### All posts visible,
 ###### Post can be HTML document, picture, iFrame
 ###### All menu visible
