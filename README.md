@@ -55,3 +55,10 @@ of the application is Responsive Web Design, Mobile First.
 
 # The Back End
 of the application are PHP SQL
+
+# Run it at your computer
+###### You have to have XAMPP or other
+###### download
+###### copy to htdocs
+###### copy database.sql to phpMyAdmin
+###### Work!
