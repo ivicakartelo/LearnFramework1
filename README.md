@@ -62,3 +62,24 @@ of the application are PHP SQL
 ###### copy to htdocs
 ###### copy database.sql to phpMyAdmin
 ###### Work!
+
+# GitHub enough to start with
+
+###### Open your profil
+###### Download repository
+###### Run app at your computer
+###### Change/add code
+
+## Commit
+###### Click at LearnFramework1 in repository ivicakartelo/LearnFramework1
+###### Upload files
+###### Choose your files
+###### Dragg files here to add them to my repository
+###### Commit changes
+###### Commit changes
+
+## Fork
+###### Click at LearnFramework1 in repository ivicakartelo/LearnFramework1
+###### Click Fork
+###### You will have my repository as yours
+###### Work with it!
