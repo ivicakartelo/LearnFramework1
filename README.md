@@ -21,21 +21,21 @@ At index.php is CRUD code for table menu. In comments.php is CRUD code for table
 
 # Features in the root folder
 
-Connection to database
-All posts visible
-Post can be HTML document, picture, iFrame
-All menu visible
-The most popular posts
-Rang list of posts by number of views
-Only one post visible
-The Form for comment
-Approved comments visible
-SQL of database
+###### Connection to database,
+###### All posts visible,
+###### Post can be HTML document, picture, iFrame
+###### All menu visible
+###### The most popular posts
+###### Rang list of posts by number of views
+###### Only one post visible
+###### The Form for comment
+###### Approved comments visible
+###### SQL of database
 
 # Features in the admin folder
 
-CRUD for table admin
-CRUD for table comments
+###### CRUD for table admin
+###### CRUD for table comments
 
 # The solution on the Home Page in the root folder
 
@@ -50,4 +50,7 @@ All CRUD for table menu is on index.php. All CRUD for table comments is on comme
 CRUD stay for Create, Read, Update and Delete. SQL equivalents are: INSERT, SELECT, UPDATE, DELETE. 
 
 # The Front End 
-of application is Responsive Web Design, Mobile First.
+of the application is Responsive Web Design, Mobile First.
+
+# The Back End
+of the application are PHP SQL
