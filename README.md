@@ -8,7 +8,9 @@ Every human product has a story in front of it. That story is the architecture o
 
 # The story that run-up in front of Framework1
 
-The procedural coding is linear storytelling. The web application is built upon two tables in a MySQL database, the menu, and comments.
+The procedural coding is linear storytelling. We begin coding from scratch top to down on Home Page index.php. The storytelling and coding are the same: IF there is no variable in URL display all posts. Else, display one post.
+
+The web application is built upon two tables in a MySQL database, the menu, and comments.
 The physical, private part of the app is in the admin folder, the public part is in the root folder. There is Home Page index.php in every folder. Almost all code is in that Home Pages.
 
 # The public folder's Home Page
